@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #004e7e;
+    padding: 25px;
+    color: white;
+    padding-right: 10pc;
+    padding-left: 10pc;
+}
+.red {
+    color: #ff0000;
+}
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    flex-grow: 1;
+}
+#searchbar {
+    padding: 10px;
+    font-size: 15px;
+    width: 350px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+}
+.search-btn {
+    padding-left: 5px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.cart {
+    font-size: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.links a {
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.banner {
+    margin: 2pc 31pc 2pc 31pc;
+    text-align: center;
+    font-size: 19px;
+    color: white;
+    padding: 40px;
+    background-color: #ff6b35f6;
+    padding: 20px;
+    padding-left: 5pc;
+    padding-right: 5pc;
+    display: inline-block;
+    border: 2px solid #f44100;
+    border-radius: 10px;
+}
+.blue {
+    color: #004e7e;
+    font-weight: bold;
+}
+.collect-btn {
+    background-color: #004e7e;
+    color: white;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.flash-sale {
+    padding: 20px;
+    margin: 0 10pc 0 10pc;
+    background: white;
+    text-align: center;
+}
+.products {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 30px;
+    padding-left: 4.5pc;
+}
+.product {
+    width: 15pc;
+    height: 20pc;
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.product img {
+    width: 100%;
+    height: auto;
+}
+.price {
+    font-weight: bold;
+    color: #ff6b35f6;
+}
+.shop-all {
+    background-color: #004e7e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
