@@ -116,3 +116,33 @@ body {
     cursor: pointer;
     margin-top: 20px;
 }
+.section2 {
+    padding: 20px;
+    margin: 3pc 10pc 3pc 10pc;
+    background: white;
+    text-align: center;
+}
+.Categories {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 0;
+    row-gap: 10px;
+    margin-left: 5pc;
+    margin-right: 5pc;
+}
+.Categories img {
+    width: 92.5%;
+    height: 200px;
+    padding: 8px;
+}
+.items {
+    width: 13pc;
+    height: 15.8pc;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.items p {
+    margin: 0;
+}
