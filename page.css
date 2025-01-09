@@ -146,3 +146,62 @@ body {
 .items p {
     margin: 0;
 }
+.load-btn {
+    display: block;
+    margin: 0 auto;
+    font-size: larger;
+    padding: 5px 8pc 5px 8pc;
+    cursor: pointer;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    padding-left: 7pc;
+    margin: 5pc 5pc 3pc 5pc;
+    column-gap: 10pc;
+}
+.footer h3 {
+    font-size: 16px;
+    padding: 0 0 0 2.5pc;
+    color: #003e65;
+}
+.section a {
+    text-decoration: none;
+    color: #004e7e;
+}
+ul {
+    list-style: none;
+}
+input {
+    margin: 0;
+    width: 18pc;
+    height: 2pc;
+    border: 1px solid rgb(145, 145, 145);
+}
+.payment {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 2pc;
+    background-color: #004e7e;
+    padding-left: 10pc;
+}
+.payment img {
+    width: 50px;
+    margin: 5px;
+}
+.payment-images {
+    margin-left: 20px;
+    margin-top: 0.5pc;
+}
+.follow {
+    display: flex;
+    flex-direction: row;
+    margin-left: 45pc;
+}
+.follow img {
+    cursor: pointer;
+    margin-top: 0.5pc 0 0 0;
+    width: 80px;
+    height: 40px;
+}
