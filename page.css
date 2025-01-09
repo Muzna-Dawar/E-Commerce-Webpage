@@ -182,7 +182,7 @@ input {
     display: flex;
     flex-direction: row;
     color: white;
-    padding: 2pc;
+    padding: 1.5pc;
     background-color: #004e7e;
     padding-left: 10pc;
 }
@@ -197,7 +197,7 @@ input {
 .follow {
     display: flex;
     flex-direction: row;
-    margin-left: 45pc;
+    margin-left: 40pc;
 }
 .follow img {
     cursor: pointer;
